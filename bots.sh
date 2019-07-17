@@ -30,13 +30,13 @@ echo "========================================"
 echo "|AUTHOR   : MR.XBOTS               |"
 echo "|WA       : 08814679274            |"
 echo "|IG.      : Pandark00              |"
-echo "|TOOLS    : INSTALLER (9 TOOLS)    |"
+echo "|TOOLS    : INSTALLER (11 TOOLS)    |"
 echo "========================================"
 sleep 0.3
 echo "Selamat datang "$nama "terima kasih telah berkunjung"
 sleep 0.2
 echo "ingin melanjutkan y/n"
-read -p ">>>>))) " or; 
+read -p ">>>>>>>> " or; 
 echo
 
 if [ $or = y ]
@@ -49,7 +49,7 @@ echo "========================================"
 echo "|AUTHOR   : MR.XBOTS               |"
 echo "|WA       : 08814679274            |"
 echo "|IG.      : Pandark00              |"
-echo "|TOOLS    : INSTALLER (9 TOOLS)    |"
+echo "|TOOLS    : INSTALLER (11 TOOLS)    |"
 echo "========================================"
 sleep 0.3
 echo
@@ -93,7 +93,7 @@ echo
 sleep 0.5
 echo
 echo "tinggal pilih salah satu goblok"
-read -p"===>" pil;
+read -p"======> " pil;
 fi
 
 if [ $pil = 1 ]
