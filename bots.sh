@@ -90,6 +90,10 @@ echo "=================================================="|lolcat
 sleep 0.5
 echo "[11]" " Phising"|lolcat
 echo "=================================================="|lolcat
+sleep 0.5
+echo "[12]" " Spam Versi Gua"|lolcat
+echo "=================================================="|lolcat
+echo
 echo
 sleep 0.5
 echo
@@ -187,7 +191,7 @@ cd enoxuia
 php enox.php
 fi
 
-if [ $pil = 12 ]
+if [ $pil = 13 ]
 then
 clear
 figlet -f slant "E X I T"|lolcat
@@ -214,6 +218,15 @@ git clone https://github.com/thelinuxchoice/shellphish.git
 cd shellphish
 chmod +x *
 bash shellphish.sh
+fi
+
+if [ $pil = 12 ]
+then
+clear
+figlet -f slant "INSTALL" |lolcat
+https://github.com/XbotPande/Spamv1.git
+cd Spamv1
+bash spamv1.sh
 fi
 
 if [ $or = n ]
